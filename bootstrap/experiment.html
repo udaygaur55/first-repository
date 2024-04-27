@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        .logo1 {
+            width: 100%;
+            height: 100vh;
+            display: flex;
+            background: black;
+            z-index: 2;
+        }
+        h1{
+            font-size: 23px;
+            display: flex;
+            color: white;
+            padding-left: 150px;
+            margin-top: 100px;
+        }
+
+        .btn1{
+            display: inline-flex;
+            position: relative;
+            justify-content: center;
+            align-items: center;
+            width: 170px;
+            height: 42px;
+            right: 170px;
+            margin-top: 150px;
+            font-weight: 600;
+            z-index: 1;
+
+        }
+        .abc{
+            width: 120px;
+            border-radius: none;
+            background: transparent;
+        }
+        .abc:hover{
+            width: 124px;
+            background: black;
+            border:2px solid ;
+        }
+        .bcd{
+            width: 170px;
+            border-radius: none;
+            background: transparent;
+        }
+        .bcd:hover{
+            width: 174px;
+            background: black;
+            border:2px solid ;
+        }
+        .setup{
+            display: flex;
+            position: absolute;
+            flex-wrap: wrap;
+            width: 1280px;
+            top: 230px;
+            border-radius: 10px;
+            gap: 40px;
+            padding-left: 150px;
+        }
+        .setvet:hover{
+            display: flex;
+            flex-wrap: wrap; 
+            size: 20px;
+            cursor: pointer;
+            /* width: 250px; */
+            /* height: 150px; */
+            /* border: 2px solid; */
+        }
+        .setvet{
+            /* border-radius: 70px; */
+            height: 200px;
+        }
+
+    </style>
+</head>
+
+<body>
+    <div class="logo1">
+        <h1>Tranding Now</h1>
+        <div class="btn1">
+            <div class="dropdown">
+                <a class="btn abc btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  India
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">India</a></li>
+                  <li><a class="dropdown-item" href="#">Global</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="btn1">
+            <div class="dropdown">
+                <a class="btn bcd btn-secondary dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Movies
+                </a>
+              
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Movies</a></li>
+                  <li><a class="dropdown-item" href="#">TV Shows</a></li>
+                </ul>
+              </div>
+        </div>
+        <div class="setup">
+            <div class="setvet"><img src="https://images.ctfassets.net/4cd45et68cgf/4mMKQWkwn2akMHbhk1Z55w/ec43e12c150be3bfe7ec09bbdd22cdc8/EN-US_Troll_Main_4x5_RGB_PRE.jpg?w=2000" height="250px"  width="150px" alt=""></div>
+            <div class="setvet"><img src="https://hips.hearstapps.com/hmg-prod/images/best-family-movies-netflix-spy-kids-64026bec44d3e.jpeg" height="250px"  width="150px" alt=""></div>
+            <div class="setvet"><img src="https://www.themanual.com/wp-content/uploads/sites/9/2023/01/rJHC1RUORuUhtfNb4Npclx0xnOf.jpg" height="250px"  width="150px" alt=""></div>
+            <div class="setvet"><img src="https://hips.hearstapps.com/hmg-prod/images/over-the-moon-netflix-movie-1604866047.png" height="250px"  width="150px" alt=""></div>
+            <div class="setvet"><img src="https://www.j-14.com/wp-content/uploads/2021/12/netflix01-1.jpg?fit=800%2C1185&quality=86&strip=all" height="250px" width="150px" alt=""></div>
+            <div class="setvet"><img src="https://m.media-amazon.com/images/M/MV5BZTY5YTk0ZDMtODg0Zi00OGM4LTgxMTQtODAzODg2ZjE2MmM1XkEyXkFqcGdeQXVyMTkxNjUyNQ@@._V1_.jpg" height="250px" width="150px" alt=""></div>
+        </div>
+    </div>
+</body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</html>
